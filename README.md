@@ -11,7 +11,7 @@ This game use the open source framework **Cocos2dx V4** https://www.cocos.com/en
 # iOS project
 
 Once you downloaded the repo:
-- Create a folder called **ios-build** with `mkdir ios-build`
+- In the root project directory create a folder called **ios-build** with `mkdir ios-build`
 - Go to the new folder `cd ios-build`
 - Create the Xcode project with `cmake .. -GXcode -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_SYSROOT=iphoneos`
 - Open the Xcode created at `ios-build`
